@@ -22,7 +22,7 @@ $(function() {
 });
 
 var refreshClass = function() {
-  var cards = $('.dashboard-brick-list li');
+  var cards = $('.dashboard-brick-list > li');
 
   if (cards.length < 3) {
     cards.removeClass('three-columns');
