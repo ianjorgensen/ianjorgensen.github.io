@@ -32,6 +32,8 @@ list-style: none;
 .dashboard-brick-list {
   padding: 10px 30px;
   width: 100%;
+  height: 540px;
+  overflow: hidden;
 }
 .dashboard-brick-list > li {
   float: left;
@@ -103,26 +105,125 @@ body {
   width: 80%;
   height: 100%;
 }
-.mdl-card-big h2 {
-  font-size: 40px;
-  padding-bottom: 145px;
-}
-.mdl-card-big h1 {
-  font-size: 150px;
-  padding-top: 110px;
-}
 
 .mdl-card {
     width: 100%;
     height: 100%;
 }
 
+footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.start-test-button {
+  padding: 25px 0px;
+  background: #8cc63f;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  font-weight: 100;
+  margin: 30px auto;
+  width: 500px;
+  text-align: center;
+}
+
+
+.mdl-card {
+  min-height: 10px;
+}
+
 .two-columns {
-  width: 45.5%;
-  height: 540px
+  width: 45%;
+  height: 470px;
+}
+.two-columns h1 {
+  font-size: 132px;
+  padding-top: 100px;
 }
 
 .three-columns {
-  width: 30%;
-  height: 350px;
+  width: 29%;
+  height: 257px;
+}
+.three-columns h1 {
+  font-size: 89px;
+  padding-top: 57px;
+}
+
+.four-columns {
+  width: 21.4%;
+  height: 230px;
+}
+.four-columns h1 {
+  font-size: 69px;
+}
+.four-columns h2 {
+  font-size: 20px;
+}
+
+.five-columns {
+  width: 16.6%;
+  height: 164px;
+}
+.five-columns h1 {
+  font-size: 50px;
+  padding-top: 45px;
+}
+.five-columns h2 {
+  font-size: 18px;
+}
+.five-columns .card-bar {
+  height: 10px;
+}
+
+.slim-rows {
+  width: 29.5%;
+  height: 45px;
+  padding: 5px 11px !important;
+}
+
+.slim-rows h1 {
+  font-size: 26px;
+  padding-top: 8px;
+  width: inherit;
+  float: left;
+  margin: 0;
+  padding-left: 103px;
+  padding-right: 7px;
+}
+.slim-rows h2 {
+  font-size: 16px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 89px;
+  line-height: 29px;
+  padding-top: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+.slim-rows .card-bar {
+  height: 0px;
+}
+.slim-rows .card-header-middle {
+    color: #cccccc;
+    font-size: 20px;
+    /* text-align: center; */
+    position: absolute;
+    left: -4px;
+    width: 10px;
+    /* display: none; */
+    padding-left: 45px;
+    top: -18px;
+}
+
+body.noscroll{
+    position:fixed;
+    overflow:hidden;
+}
+.templates {
+  display: none;
 }
