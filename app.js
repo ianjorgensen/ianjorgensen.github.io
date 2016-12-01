@@ -9,11 +9,14 @@ $(function() {
 });
 
 var refreshClass = function() {
-  var cards = $('.dashboard-brick-list .demo-card');
+  var cards = $('.dashboard-brick-list li');
 
-  if (cards.length > 2) {
-    cards.removeClass('mdl-card-big');
-  } else {
-    cards.addClass('mdl-card-big');
+  if (cards.length < 3) {
+    cards.addClass('two-columns');
   }
+
+  if (cards.length > 3 && cards.length < 6) {
+    cards.addClass('three-columns');
+  }
+
 }
