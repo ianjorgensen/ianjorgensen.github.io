@@ -1,21 +1,16 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Brick Controller</title>
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-teal.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
   <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script>
-  $(function() {
-    $('.dashboard-brick-list > li').click(function() {
-      var newCard = $(this).clone();
-      $('.dashboard-brick-list').append(newCard);
-    });
-  });
-  </script>
+  <script src="app.js"></script>
 </head>
 <body>
   <!-- Simple header with scrollable tabs. -->
@@ -74,7 +69,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <!--<li>
               <div class="demo-card mdl-card mdl-shadow--2dp card-green">
                 <div class="card-header">
                   <button class="card-header-left mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
@@ -113,7 +108,7 @@
                   <div class='card-bar-inner'></div>
                 </div>
               </div>
-            </li>
+            </li>-->
           </ul>
         </div>
       </section>
