@@ -1,0 +1,6 @@
+{
+  "name": "Controller",
+  "short_name": "Controller",
+  "start_url": ".",
+  "display": "standalone",
+}

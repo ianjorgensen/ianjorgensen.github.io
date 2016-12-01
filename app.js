@@ -3,7 +3,6 @@ $(function() {
     var newCard = $(this).clone();
     $('.dashboard-brick-list').append(newCard);
     refreshClass();
-    $('.console').html($('body').width() + ' ' + $('body').height());
   });
   refreshClass();
 
