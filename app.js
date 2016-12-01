@@ -12,9 +12,8 @@ $(function() {
 
     $(newCard).find('#more').click(function() {
       $(this).parent().parent().parent().remove();
+      refreshClass();
     });
-
-    componentHandler.upgradeElement(newCard[0]);
     refreshClass();
 
   });
