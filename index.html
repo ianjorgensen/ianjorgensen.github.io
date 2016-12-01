@@ -1,0 +1,128 @@
+<html>
+<head>
+  <title>Brick Controller</title>
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-teal.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script>
+  $(function() {
+    $('.dashboard-brick-list > li').click(function() {
+      var newCard = $(this).clone();
+      $('.dashboard-brick-list').append(newCard);
+    });
+  });
+  </script>
+</head>
+<body>
+  <!-- Simple header with scrollable tabs. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="custom-header mdl-layout__header mdl-layout__header--waterfall">
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Dashboard</a>
+        <a href="#scroll-tab-2" class="mdl-layout__tab">Results</a>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Menu</span>
+    </div>
+    <main class="mdl-layout__content">
+      <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+        <div class="page-content">
+          <ul class='dashboard-brick-list'>
+            <li>
+              <div class="demo-card mdl-card mdl-card-big mdl-shadow--2dp card-blue">
+                <div class="card-header">
+                  <button class="card-header-left mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons equalizer">equalizer</i>
+                  </button>
+                  <h3 class="card-header-middle">LF</h3>
+                  <button class="card-header-right mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="more_horiz material-icons">more_horiz</i>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <h1>02:00</h1>
+                  <h2>Analyzing...</h2>
+                </div>
+                <div class="card-bar">
+                  <div class='card-bar-inner'></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="demo-card mdl-card mdl-shadow--2dp card-green">
+                <div class="card-header">
+                  <button class="card-header-left mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons equalizer">equalizer</i>
+                  </button>
+                  <h3 class="card-header-middle">LF</h3>
+                  <button class="card-header-right mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="more_horiz material-icons">more_horiz</i>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <h1>00:00</h1>
+                  <h2>Available</h2>
+                </div>
+                <div class="card-bar">
+                  <div class='card-bar-inner'></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="demo-card mdl-card mdl-shadow--2dp card-green">
+                <div class="card-header">
+                  <button class="card-header-left mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons equalizer">equalizer</i>
+                  </button>
+                  <h3 class="card-header-middle">LF</h3>
+                  <button class="card-header-right mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="more_horiz material-icons">more_horiz</i>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <h1>00:00</h1>
+                  <h2>Remove Cartdidge</h2>
+                </div>
+                <div class="card-bar">
+                  <div class='card-bar-inner'></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="demo-card mdl-card mdl-shadow--2dp card-blue">
+                <div class="card-header">
+                  <button class="card-header-left mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons equalizer">equalizer</i>
+                  </button>
+                  <h3 class="card-header-middle">LF</h3>
+                  <button class="card-header-right mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="more_horiz material-icons">more_horiz</i>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <h1>35℃</h1>
+                  <h2>Warming...</h2>
+                </div>
+                <div class="card-bar">
+                  <div class='card-bar-inner'></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+        <div class="page-content">
+          <h3>Results would go here</h3>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

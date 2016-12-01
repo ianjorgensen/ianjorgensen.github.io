@@ -1,0 +1,127 @@
+ol, ul {
+list-style: none;
+}
+  .mdl-layout__drawer-button, .mdl-layout__drawer{
+      left: initial;
+      right: 0;
+  }
+
+  .mdl-layout__drawer{
+      transform:translateX(250px);
+  }
+  /*
+  .mdl-layout__header {
+    min-height: 48px;
+  }
+
+  .mdl-layout__drawer-button {
+    height: 40px;
+  }*/
+
+  .mdl-layout__header .mdl-layout__drawer-button {
+    margin: 14px;
+  }
+  .mdl-layout__drawer-button {
+    height: 40px;
+  }
+  .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+    background:  #e0e0e0;
+  }
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('https://getmdl.io/assets/demos/welcome_card.jpg') center / cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.dashboard-brick-list {
+  padding: 10px 30px;
+}
+.dashboard-brick-list > li {
+  float: left;
+  padding: 11px;
+}
+.more_horiz {
+  color: gray !important;
+}
+body {
+  background: #e0e0e0;
+}
+.card-header-middle {
+  color: #cccccc;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: -16px;
+  width: 100%;
+}
+.card-header-left {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.card-header-right {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-blue {
+  color: #0396af;
+}
+.card-blue .card-bar-inner {
+  background: #0396af;
+}
+.card-green {
+  color: #8cc63f;
+}
+.card-green .card-bar-inner {
+  background: #8cc63f;
+  width: 100% !important;
+}
+.card-body > h1 {
+  font-size: 82px;
+  padding-top: 43px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  font-weight: lighter;
+}
+.card-body > h2 {
+  color: #898989;
+  font-size: 23px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 45px;
+  margin-top: -18px;
+  font-weight: lighter;
+}
+.card-bar {
+  background: #f2f2f2;
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.card-bar-inner {
+  width: 80%;
+  height: 100%;
+}
+.mdl-card {
+  width: 219px;
+}
+.mdl-card-big h2 {
+  font-size: 40px;
+  padding-bottom: 145px;
+}
+.mdl-card-big h1 {
+  font-size: 150px;
+  padding-bottom: 143px;
+}
