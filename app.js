@@ -5,6 +5,7 @@ $(function() {
     refreshClass();
   });
   refreshClass();
+  alert($('body').width() + ' ' + $('body').height());
 });
 
 var refreshClass = function() {

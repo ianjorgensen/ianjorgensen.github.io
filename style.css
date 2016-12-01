@@ -28,21 +28,13 @@ list-style: none;
     background:  #e0e0e0;
   }
 
-.demo-card-wide.mdl-card {
-  width: 512px;
-}
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('https://getmdl.io/assets/demos/welcome_card.jpg') center / cover;
-}
-
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
 }
 
 .dashboard-brick-list {
   padding: 10px 30px;
+  width: 100%;
 }
 .dashboard-brick-list > li {
   float: left;
